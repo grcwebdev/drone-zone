@@ -1,0 +1,68 @@
+section#info {
+    background: #fff;
+    padding: 40px 20px;
+    .info-header {
+        font-family: proxima-nova, sans-serif;
+        margin-bottom: 20px;
+        h3.header-title {
+            font-size: 10vw;
+            font-weight: 700;
+            background: -webkit-linear-gradient(75deg, rgba(203,0,53,1) 0%, rgba(224,105,0,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        p.header-text {
+            font-size: 4.8vw;
+            font-weight: 400;
+            color: #5e6372;
+        }
+    }
+    .points {
+        margin-bottom: 20px;
+        .point {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+            .left {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-right: 20px;
+                .circle {
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    border: 2px solid #c7cde0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span {
+                        font-family: proxima-nova, sans-serif;
+                        font-size: 4.8vw;
+                        color: #3f4e76;
+                    }
+                }
+            }
+            .right {
+                margin-right: 0;
+                margin-left: auto;
+                p {
+                    font-family: proxima-nova, sans-serif;
+                    font-size: 3.733vw;
+                    color: #a7acbc;
+                }
+            }
+        }
+    }
+    .img-wrapper {
+        position: relative;
+        right: -20px;
+        img {
+            width: 100%;
+        }
+    }
+}

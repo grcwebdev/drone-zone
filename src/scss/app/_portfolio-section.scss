@@ -1,0 +1,85 @@
+section#portfolio {
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .nature-img {
+            height: 300px;
+            background: url('/images/nature-image.png');
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nature-text {
+            padding: 40px 20px;
+            background: #f6f6f6;
+            font-family: proxima-nova, sans-serif;
+            h3.portfolio-title {
+                font-size: 10vw;
+                font-weight: 700;
+                background: -webkit-linear-gradient(75deg, rgba(203,0,53,1) 0%, rgba(224,105,0,1) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-bottom: 10px;
+            }
+            p.portfolio-text {
+                font-size: 4.8vw;
+                color: #5e6372;
+                margin-bottom: 20px;
+            }
+            .ask-btn {
+                width: 50%;
+                margin: 0 auto;
+                background: #2b4a9b;
+                color: #fff;
+                padding: 15px 20px;
+                border-radius: 25px;
+                text-align: center;
+                font-family: proxima-nova, sans-serif;
+                font-size: 4.8vw;
+                font-weight: 300;
+            }
+        }
+        .city-img {
+            height: 300px;
+            background: url('/images/city-image.png');
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .city-text {
+            padding: 40px 20px;
+            background: #f6f6f6;
+            font-family: proxima-nova, sans-serif;
+            h3.portfolio-title {
+                font-size: 10vw;
+                font-weight: 700;
+                background: -webkit-linear-gradient(75deg, rgba(203,0,53,1) 0%, rgba(224,105,0,1) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-bottom: 10px;
+            }
+            p.portfolio-text {
+                font-size: 4.8vw;
+                color: #5e6372;
+                margin-bottom: 20px;
+            }
+            .ask-btn {
+                width: 50%;
+                margin: 0 auto;
+                background: #2b4a9b;
+                color: #fff;
+                padding: 15px 20px;
+                border-radius: 25px;
+                text-align: center;
+                font-family: proxima-nova, sans-serif;
+                font-size: 4.8vw;
+                font-weight: 300;
+            }
+        }
+    }
+}

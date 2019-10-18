@@ -1,0 +1,42 @@
+section#icons {
+    background: #f6f6f6;
+    padding: 40px 20px;
+    .boxes {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .box {
+            margin-bottom: 30px;
+            font-family: proxima-nova, sans-serif;
+            text-align: center;
+            .image-wrapper {
+                margin-bottom: 15px;
+            }
+            .icon-title {
+                margin-bottom: 15px;
+                font-size: 8vw;
+                font-weight: 700;
+                background: -webkit-linear-gradient(75deg, rgba(203,0,53,1) 0%, rgba(224,105,0,1) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .icon-description {
+                font-size: 4.8vw;
+                color: #5e6372;
+            }
+        }
+    }
+    .ask-btn {
+        width: 50%;
+        margin: 0 auto;
+        background: #2b4a9b;
+        color: #fff;
+        padding: 15px 20px;
+        border-radius: 25px;
+        text-align: center;
+        font-family: proxima-nova, sans-serif;
+        font-size: 4.8vw;
+        font-weight: 300;
+    }
+}
