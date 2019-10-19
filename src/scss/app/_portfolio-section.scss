@@ -83,3 +83,43 @@ section#portfolio {
         }
     }
 }
+
+@media only screen and (min-width: 720px) {
+    section#portfolio {
+        .content {
+            .nature-img {
+                height: 450px;
+            }
+            .nature-text {
+                padding: 80px 40px;
+                h3.portfolio-title {
+                    font-size: 6vw;
+                    margin-bottom: 20px;
+                }
+                p.portfolio-text {
+                    font-size: 3.75vw;
+                    margin-bottom: 40px;
+                }
+                .ask-btn {
+                    padding: 20px 25px;
+                    border-radius: 30px;
+                    font-size: 3.75vw;
+                }
+            }
+            .city-img {
+                height: 450px;
+            }
+            .city-text {
+                padding: 80px 40px;
+                h3.portfolio-title {
+                    font-size: 6vw;
+                    margin-bottom: 20px;
+                }
+                p.portfolio-text {
+                    font-size: 3.75vw;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+}

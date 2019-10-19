@@ -8,3 +8,9 @@ footer {
         font-size: 2vw;
     }
 }
+
+@media only screen and (min-width: 720px) {
+    footer {
+        padding: 40px 40px 80px;
+    }
+}

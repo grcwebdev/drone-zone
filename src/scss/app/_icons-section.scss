@@ -40,3 +40,29 @@ section#icons {
         font-weight: 300;
     }
 }
+
+@media only screen and (min-width: 720px) {
+    section#icons {
+        padding: 80px 40px;
+        .boxes {
+            .box {
+                margin-bottom: 60px;
+                .image-wrapper {
+                    margin-bottom: 30px;
+                }
+                .icon-title {
+                    margin-bottom: 30px;
+                    font-size: 6vw;
+                }
+                .icon-description {
+                    font-size: 3.75vw;
+                }
+            }
+        }
+        .ask-btn {
+            padding: 20px 25px;
+            border-radius: 30px;
+            font-size: 3.75vw;
+        }
+    }
+}

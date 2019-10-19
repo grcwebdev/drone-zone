@@ -41,3 +41,25 @@ section#newsletter {
         }
     }
 }
+
+@media only screen and (min-width: 720px) {
+    section#newsletter {
+        padding: 80px 40px;
+        h3.newsletter-title {
+            font-size: 3.75vw;
+            margin-bottom: 40px;
+        }
+        .newsletter-input {
+            left: 40px;
+            .input-field {
+                width: 30%;
+                padding: 20px;
+            }
+            .send-btn {
+                z-index: 3;
+                padding: 20px;
+                right: 60px;
+            }
+        }
+    }
+}
