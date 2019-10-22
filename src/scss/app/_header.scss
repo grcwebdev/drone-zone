@@ -23,6 +23,19 @@ header {
             display: none;
         }
     }
+    #mobile-nav {
+        display: none;
+        background: rgba(125, 125, 125, 0.6);
+        a {
+            color: #fff;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 4.5vw;
+            display: block;
+            font-family: proxima-nova, sans-serif;
+        }
+        margin-bottom: 80px;
+    }
     .slogan {
         width: 100%;
         font-family: proxima-nova, sans-serif;
@@ -39,6 +52,7 @@ header {
             text-align: center;
             color: rgba(255,255,255,.6);
             line-height: 1.667;
+            font-size: 6vw;
         }
     }
     .buttons {
@@ -56,6 +70,7 @@ header {
                 background: #fff;
                 display: flex;
                 align-items: center;
+                margin-right: 10px;
             }
             &.watch {
                 color: #fff;
@@ -125,6 +140,9 @@ header {
                 margin-bottom: 16.38%;
                 h1.logo {
                     font-size: 1.875vw;
+                }
+                #mobile-nav {
+                    display: none;
                 }
                 i.fa {
                     display: none;
