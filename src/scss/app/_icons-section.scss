@@ -66,3 +66,37 @@ section#icons {
         }
     }
 }
+
+@media only screen and (min-width: 1025px) {
+    section#icons {
+        padding: 100px 0;
+        .container {
+            width: 69.95%;
+            max-width: 1440px;
+            margin: 0 auto;
+            .boxes {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: baseline;
+                margin-bottom: 100px;
+                .box {
+                    margin-bottom: 0;
+                    .image-wrapper {
+                        margin-bottom: 15px;
+                    }
+                    .icon-title {
+                        font-size: 1.563vw;
+                        margin-bottom: 25px;
+                    }
+                    .icon-description {
+                        font-size: 0.938vw;
+                    }
+                }
+            }
+            .ask-btn {
+                width: 14.89%;
+                font-size: 0.938vw;
+            }
+        }
+    }
+}

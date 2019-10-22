@@ -63,3 +63,40 @@ section#newsletter {
         }
     }
 }
+
+@media only screen and (min-width: 1025px) {
+    section#newsletter {
+        padding: 7.81% 0 10.42%;
+        width: 100%;
+        h3.newsletter-title {
+            font-size: 2.5vw;
+            margin-bottom: 2.34%;
+        }
+        .newsletter-input {
+            margin: 0 auto;
+            padding: 0;
+            left: 0;
+            justify-content: flex-start;
+            width: 20.83%;
+            .input-field {
+                padding: 15px 30px;
+                border-radius: 30px;
+                font-size: 0.983vw;
+                width: 100%;
+                position: relative;
+                left: 20px;
+            }
+            .send-btn {
+                cursor: pointer;
+                border-radius: 30px;
+                padding: 15px 30px;
+                width: 33.75%;
+                font-size: 0.983vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                right: 20px;
+            }
+        }
+    }
+}

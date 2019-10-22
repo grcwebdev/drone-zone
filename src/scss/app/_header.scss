@@ -11,6 +11,7 @@ header {
         color: #fff;
         font-size: 9.6vw;
         margin-bottom: 80px;
+        align-items: baseline;
         h1.logo {
             font-weight: 700;
             font-size: 9.6vw;
@@ -18,7 +19,7 @@ header {
                 font-weight: 300;
             }
         }
-        ul.nav {
+        .nav {
             display: none;
         }
     }
@@ -112,59 +113,62 @@ header {
 
 @media only screen and (min-width: 1025px) {
     header {
-        padding: 2.6% 15.63% 28.91%;
-        .header {
-            width: 100%;
-            align-items: center;
-            h1.logo {
-                font-size: 1.875vw;
-            }
-            i.fa {
-                display: none;
-            }
-            ul.nav {
-                width: 100%;
-                display: flex;
-                justify-content: flex-end;
-                font-size: 0.938vw;
-                li {
-                    margin-right: 30px;
-                    cursor: pointer;
-                    &:last-of-type {
-                        margin-right: 0;
-                    }
+        width: 100%;
+        padding: 0;
+        padding-bottom: 560px;
+        .container {
+            width: 69.95%;
+            max-width: 1440px;
+            margin: 0 auto;
+            .header {
+                padding-top: 3.72%;
+                margin-bottom: 16.38%;
+                h1.logo {
+                    font-size: 1.875vw;
                 }
-            }
-        }
-        .slogan {
-            margin-bottom: 60px;
-            margin-bottom: 10%;
-            h3.slogan-title {
-                font-size: 2.5vw;
-            }
-            h4.slogan-text {
-                font-size: 0.938vw;
-            }
-        }
-        .buttons {
-            .btn {
-                padding: 15px;
-                font-size: 0.938vw;
-                width: 10.42%;
-                cursor: pointer;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                &.ask {
-                    margin-right: 22px;
+                i.fa {
+                    display: none;
                 }
-                &.watch {
-                    margin-left: 0;
-                    i.fa {
+                .nav {
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 100%;
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                        cursor: pointer;
                         font-size: 0.938vw;
+                        margin-right: 30px;
+                        &:last-of-type {
+                            margin-right: 0;
+                        }
                     }
                 }
-
+            }
+            .slogan {
+                margin-bottom: 60px;
+                h3.slogan-title {
+                    font-size: 2.5vw;
+                    margin-bottom: 25px;
+                }
+                h4.slogan-text {
+                    font-size: 0.938vw;
+                }
+            }
+            .buttons {
+                .btn {
+                    padding: 15px;
+                    font-size: 0.938vw;
+                    &.ask {
+                        margin-right: 25px;
+                    }
+                    &.watch {
+                        margin-left: 0;
+                        i.fa {
+                            font-size: 0.938vw;
+                        }
+                    }
+                }
             }
         }
     }

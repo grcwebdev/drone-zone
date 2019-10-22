@@ -106,3 +106,89 @@ section#info {
         }
     }
 }
+
+@media only screen and (min-width: 1025px) {
+    section#info {
+        padding: 80px 0;
+        overflow: hidden;
+        display: flex;
+        .container {
+            width: 69.95%;
+            max-width: 1440px;
+            padding-left: 15.63%;
+            display: inline-block;
+            .info-header {
+                margin-bottom: 55px;
+                h3.header-title {
+                    font-size: 2.5vw;
+                    margin-bottom: 25px;
+                }
+                p.header-text {
+                    font-size: 0.938vw;
+                    line-height: 2;
+                }
+            }
+            .points {
+                display: grid;
+                grid-template-rows: 100px 100px 100px;
+                grid-template-columns: 45% 45%;
+                grid-row-gap: 20px;
+                grid-column-gap: 20px;
+                .point {
+                    justify-content: flex-start;
+                    align-items: baseline;
+                    margin-bottom: 0;
+                    .left {
+                        margin-right: 30px;
+                        .circle {
+                            width: 45px;
+                            height: 45px;
+                            span {
+                                font-size: 1.25vw;
+                            }
+                        }
+                    }
+                    .right {
+                        margin-left: 0;
+                        p {
+                            font-size: 0.938vw;
+                            text-align: left;
+                            line-height: 1.714;
+                        }
+                    }
+                    &.one {
+                        grid-column: 1 / 1;
+                        grid-row: 1 / 2;
+                    }
+                    &.two {
+                        grid-column: 1 / 1;
+                        grid-row: 2 / 2;
+                    }
+                    &.three {
+                        grid-column: 1 / 1;
+                        grid-row: 3 / 3;
+                    }
+                    &.four {
+                        grid-column: 2 / 2;
+                        grid-row: 1 / 1;
+                    }
+                    &.five {
+                        grid-column: 2 / 2;
+                        grid-row: 2 / 2;
+                    }
+                }
+            }
+        }
+        .img-wrapper {
+            display: inline-block;
+            right: 0;
+            bottom: -100px;
+            width: 60%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+  

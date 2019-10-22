@@ -14,3 +14,12 @@ footer {
         padding: 40px 40px 80px;
     }
 }
+
+@media only screen and (min-width: 1025px) {
+    footer {
+        padding: 3.13% 0 9.11%;
+        p.footer-text {
+            font-size: 0.983vw;
+        }
+    }
+}

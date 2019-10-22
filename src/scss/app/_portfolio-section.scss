@@ -123,3 +123,66 @@ section#portfolio {
         }
     }
 }
+
+@media only screen and (min-width: 1025px) {
+    section#portfolio {
+        .content {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 1fr 1fr;
+            .nature-img {
+                width: 100%;
+                height: auto;
+                grid-column: 1 / 1;
+                grid-row: 1 / 1;
+            }
+            .nature-text {
+                grid-column: 2 / 2;
+                grid-row: 1 / 1;
+                padding: 18.23% 8.33% 20.83%;
+                h3.portfolio-title {
+                    font-size: 2.5vw;
+                    margin-bottom: 25px;
+                }
+                p.portfolio-text {
+                    font-size: 0.938vw;
+                    line-height: 2;
+                    margin-bottom: 60px;
+                    width: 70%;
+                }
+                .ask-btn {
+                    width: 20.8%;
+                    padding: 15px;
+                    font-size: 0.938vw;
+                    margin-left: 0;
+                }
+            }
+            .city-img {
+                width: 100%;
+                height: auto;
+                grid-column: 2 / 2;
+                grid-row: 2 / 2;
+            }
+            .city-text {
+                grid-column: 1 / 1;
+                grid-row: 2 / 2;
+                padding: 16.67% 10.42% 18.33% 31.25%;
+                h3.portfolio-title {
+                    font-size: 2.5vw;
+                    margin-bottom: 25px;
+                }
+                p.portfolio-text {
+                    font-size: 0.938vw;
+                    line-height: 2;
+                    margin-bottom: 60px;
+                }
+                .ask-btn {
+                    width: 20.8%;
+                    padding: 15px;
+                    font-size: 0.938vw;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
